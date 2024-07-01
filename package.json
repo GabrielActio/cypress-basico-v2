@@ -5,9 +5,7 @@
   "main": "src/index.html",
   "scripts": {
     "cypress:open": "cypress open --config-file=cypress.config.js",
-    "cypress:run": "cypress run --config-file=cypress.config.js",
-    "cy:open:mobile": "cypress open --config viewportWidth=410 viewportHeight=860",
-    "test": "cypress run"
+    "cypress:run": "cypress run --config-file=cypress.config.js"
   },
   "repository": {
     "type": "git",
